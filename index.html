@@ -705,7 +705,7 @@ function sendWA(citaId){
 
   const fecha = fd(cita.fecha);
   const hora  = fh(cita.hora);
-  const msg = `Hola ${cita.clienteNombre} 😊 te recordamos que tienes una cita en *Yeni Studio* el *${fecha}* a las *${hora}* para *${cita.servicio}*. ¡Te esperamos! 💅✨`;
+  const msg = `Hola ${cita.clienteNombre} 😊 te recordamos que tienes una cita en *Yeni Hair Studio* el *${fecha}* a las *${hora}* para *${cita.servicio}*. ¡Te esperamos! 💅✨`;
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
   window.open(url,'_blank');
 }
